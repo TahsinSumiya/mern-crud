@@ -1,10 +1,13 @@
 {
+  "homepage": "http://TahsinSumiya.github.io/mern-crud",
   "name": "mern-curd",
   "version": "1.0.0",
   "description": "mern-curd",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "start": "nodemon backend/server.js",
+    "deploy":"gh-pages d build",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +19,7 @@
     "mongoose": "^6.9.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.20"
   }
 }
